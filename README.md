@@ -40,4 +40,4 @@ Without them actions would have been sorted according to the first letter, which
 
 ## I am tired to select dozen actions over and over, how can I simplify selection?
 1. Manually copy-paste actions into one single action (via any text editor), see 00_MAIN.mta as an example
-2. Create an action group that contains other actions. See the following screenshot
+2. Create an action group that contains other actions. See the [screenshot](/help/help002.png)
