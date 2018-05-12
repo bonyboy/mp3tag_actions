@@ -1,0 +1,5 @@
+﻿[#0]
+T=10
+!Delete all TAGS but leave these ones=
+F=ALBUM;ARTIST;GENRE;TITLE;TRACK;YEAR
+
