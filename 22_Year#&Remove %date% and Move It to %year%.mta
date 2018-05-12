@@ -1,0 +1,9 @@
+﻿[#0]
+T=5
+F=YEAR
+1=$if($eql($regexp(%year%,^\\d{4}$,yes),yes),$if($eql($regexp(%date%,^\\d{4}$,yes),yes),$regexp(%year%%date%,(\\d{4})(\\d{2})(\\d{2}),$1-$2-$3),%year%),$if($eql($regexp(%year%,^\\d{4}-01-01$,yes),yes),$if($eql($regexp(%date%,^\\d{4}$,yes),yes),$regexp(%year%%date%,(\\d{4})-(\\d{2})-(\\d{2})(\\d{2})(\\d{2}),$1-$4-$5),%year%),%year%))
+
+[#1]
+T=9
+F=DATE
+

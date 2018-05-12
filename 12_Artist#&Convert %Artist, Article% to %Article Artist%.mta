@@ -1,0 +1,7 @@
+﻿[#0]
+T=4
+F=ARTIST
+1=([^,&\\/\\\\]+)\\,\\s+\\b(A|An|The|El|Los|La|Las|Le|Les|De)\\b
+2=$2 $1
+3=0
+

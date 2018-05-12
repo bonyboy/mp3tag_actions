@@ -1,0 +1,5 @@
+﻿[#0]
+T=5
+F=TITLE
+1=$if($eql($regexp(%title%,'[(\\[]Live[^)\\]]*[)\\]]\\s*$',XXXXX,1),%title%),%title% '(Live)',$regexp(%title%,'[(\\[]Live([^)\\]]*)[)\\]]\\s*$','(Live$1)',1))
+

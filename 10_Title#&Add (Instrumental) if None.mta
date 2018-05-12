@@ -1,0 +1,19 @@
+﻿[#0]
+T=4
+F=TITLE
+1=(.*?)(?:[\\s\\(]+)?\\b(?:Instrumental)\\b(?:[\\s\\)]+)?(.+)?
+2=$1 $2 (Instrumental)
+3=0
+
+[#1]
+T=5
+F=TITLE
+1=$if($eql($regexp(%title%,'[(\\[]Instrumental[^)\\]]*[)\\]]\\s*$',XXXXX,1),%title%),%title% '(Instrumental)',$regexp(%title%,'[(\\[]Instrumental([^)\\]]*)[)\\]]\\s*$','(Instrumental$1)',1))
+
+[#2]
+T=4
+F=TITLE
+1=^(.+)$
+2=$trim($regexp($1,\\\\s+, ))
+3=0
+

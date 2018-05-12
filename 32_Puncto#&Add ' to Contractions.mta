@@ -1,0 +1,7 @@
+﻿[#0]
+T=4
+F=_TAG
+1=\\b(?|(how|they|what|when|where|why|you)[\\s']{0,2}(re)|(he|how|i|it|she|they|we|what|where|who|why|you)[\\s']{0,2}(d)|(could|how|i|might|must|should|we|what|when|where|would|you)[\\s']{0,2}(ve)|(he|here|how|let|she|that|there|two|what|when|where|who|why)[\\s']{0,2}(s)|(ain|aren|can|couldn|didn|doesn|don|hadn|hasn|haven|isn|mightn|mustn|shouldn|wasn|weren|won|wouldn)[\\s']{0,2}(t)|(how|it|she|that|there|they|what|when|where|who|why|you)[\\s']{0,2}(ll)|(i)[\\s']{0,2}(m)|(d)[\\s']{0,2}(ya)|(d)[\\s']{0,2}(you)|(\\w+)[\\s']{1,2}(s))\\b
+2=$1'$2
+3=0
+

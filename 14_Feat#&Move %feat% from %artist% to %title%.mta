@@ -1,0 +1,12 @@
+﻿[#0]
+T=5
+F=TITLE
+1=%title% $if($eql($regexp(%artist%,'.*?(\\(?\\b(?:feat(?:uring)?|ft)\\b\\.?[^)]+\\)?).*',xxxxx,1),xxxxx),$regexp(%artist%,'.*?(\\(?\\b(?:feat(?:uring)?|ft)\\b\\.?[^)]+\\)?).*',$1,1),)
+
+[#1]
+T=4
+F=ARTIST
+1=(.*?)(\\(?\\b(?:feat(?:uring)?|ft)\\b\\.?[^)]+\\)?)(.*)
+2=$1$3
+3=0
+

@@ -1,0 +1,5 @@
+﻿[#0]
+T=5
+F=_FILENAME
+1=%track%. %artist% - %title%
+

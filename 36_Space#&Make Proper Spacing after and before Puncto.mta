@@ -1,0 +1,55 @@
+[#47]
+T=4
+! Delete spaces BEFORE and AFTER any punctiations=
+F=_TAG
+1=(?:\\s+)?([[:punct:]])(?:\\s+)?
+2=$1
+3=0
+
+[#48]
+T=4
+! Add space AFTER the following punctiations : ! ? ) ; . , % $ ~=
+F=_TAG
+1=([:!?);.,%$~])(?![:!?);.,%$~])
+2=$1 
+3=0
+
+[#49]
+T=4
+! Remove space AFTER : and . if both characters before and after this sign are numbers.=
+F=_TAG
+1=(\\d)([:\\.])\\s(\\d)
+2=$1$2$3
+3=0
+
+[#50]
+T=4
+! Remove space AFTER . if they are part of abreviation=
+F=_TAG
+1=(\\w)\\.\\s(?\u003d\\w\\.)
+2=$1.
+3=0
+
+[#51]
+T=4
+! Add space BEFORE the following punctiations | ( #=
+F=_TAG
+1=([^|(#])([|(#])
+2=$1 $2
+3=0
+
+[#52]
+T=4
+! Add space BEFORE the ' if next character is a number=
+F=_TAG
+1=\\'(?\u003d\\s*?\\d)
+2= '
+3=0
+
+[#40]
+T=4
+! Add spaces BEFORE and AFTER the following punctiations + & / - =
+F=_TAG
+1=([+&/-])
+2= $1 
+3=0

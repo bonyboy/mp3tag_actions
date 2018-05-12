@@ -1,0 +1,14 @@
+﻿[#0]
+T=4
+F=_TAG
+1=\\b(O['\u2019]\\w)
+2=\\U$1\\E
+3=0
+
+[#1]
+T=4
+F=_TAG
+1=\\b(Ma?c)(Alister|Arthur|Askill|Bain|Coll|Coy|Donald|Dougall|Dowell|Duff|Ewen|Farlane|Gregor|Intyre|Kenzie|Kinnon|Laren|Lean|Leod|Millan|Nab|Neil|Pherson|Rae)\\b
+2=$1$caps2($2,-)
+3=0
+

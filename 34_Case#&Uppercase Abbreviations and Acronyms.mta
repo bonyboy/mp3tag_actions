@@ -1,0 +1,7 @@
+﻿[#0]
+T=4
+F=_TAG
+1=\\b(abc|ac|afi|aho|ai|aka|aol|ap|asap|asv|atm|bbc|bbq|bc|bce|blt|btw|cbs|cc|cd[0-9]+|cia|crc|csv|dc|dfa|dj|doa|dst|dmt|dmv|dnme|dvd[0-9]+|eod|ep|faq|fbi|fr|fm|gb|gi|gpd|hifi|imho|iq|ira|irs|jc|jfk|kkk|krs|kt|lp|mc|mdk|mgm|mlo|moa|mst|mtd|nasa|nato|nbc|nbcr|npr|ny|nyc|obc|ok|oop|ost|otr|pc|pm|pnc|ppo|ps|qed|rca|rpm|sos|ss|tba|tbd|tc|tcts|tlc|tv|ufo|uk|usa|uso|ussr|va|vip|wbur|wor|ymca)\\b
+2=\\U$1\\E
+3=0
+

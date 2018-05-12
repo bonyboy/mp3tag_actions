@@ -1,0 +1,7 @@
+﻿[#0]
+T=4
+F=_TAG
+1=(?<\u003d\\w\\s)\\b(a|alias|an|and|as|at|but|by|ca|circa|de|di|e\\.?G|el|en|et|et\\sal|etc|feat|for|from|ft|i\\.?e|in|into|of|off|op|on|onto|or|out|la|las|le|les|los|nor|sic|so|opus|than|the|till|to|per|until|upon|van|versus|von|vs|with)\\b
+2=\\L$1\\E
+3=0
+

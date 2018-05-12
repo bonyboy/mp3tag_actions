@@ -1,0 +1,5 @@
+﻿[#0]
+T=5
+F=TITLESORT
+1=$if($eql($regexp(%title%,^(A|An|The|El|Los|La|Las|Le|Les|De)\\s,),%title%),,$regexp(%title%,'^(.+?)\\s(.+?)(\\s[[{(].)$','$2, $1$3'))
+

@@ -1,0 +1,7 @@
+﻿[#0]
+T=4
+F=_TAG
+1=\\(?\\b((?:Original|Album)\\s+(?:Remix|Version|Edit))\\b\\)?$
+2=
+3=0
+
