@@ -46,7 +46,7 @@ C:\Documents and Settings\ %username% \Application Data\Mp3tag\Data\Actions
 
 ### Q. I am tired to select dozen actions over and over, how can I simplify selection?
 **A1**. Manually copypaste actions into one single action (via any text editor), see 00_MAIN.mta as an example
-**A2**. Create _an action group_. See the [screenshot](/help/help002.png)
+**A2**. Create _an action group_. [See the screenshot](/help/help002.png).
 
 ### Q. What is 00_MAIN action?
 **A**. This is my personal action I am using to clean music in my collection. You can use it as a guideline how you can combine various actions in one file.
