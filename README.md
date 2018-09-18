@@ -34,7 +34,7 @@ C:\Documents and Settings\ %username% \Application Data\Mp3tag\Data\Actions
 - If you installed Mp3Tag in **[portable](https://www.mp3tag.de/en/portable.html)** mode:
 
 ```
-%mp3tag location%\Data\Actions 
+%mp3tag%\Data\Actions 
 ```
 
 4. Now you should [see](/help/help001.png) new actions in the menu.
