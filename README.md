@@ -45,7 +45,8 @@ C:\Documents and Settings\ %username% \Application Data\Mp3tag\Data\Actions
 **A**. They exist for sorting purposes. Without them actions would have been sorted according to the first letter (which is not comfortable to read and follow). Those numbers allow to sort actions according to their function and what tag they affect.
 
 ### Q. I am tired to select dozen actions over and over, how can I simplify selection?
-**A1**. Manually copypaste actions into one single action (via any text editor), see 00_MAIN.mta as an example
+**A1**. Manually copypaste actions into one single action (via any text editor), see 00_MAIN.mta as an example.
+
 **A2**. Create _an action group_. [See the screenshot](/help/help002.png).
 
 ### Q. What is 00_MAIN action?
