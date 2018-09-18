@@ -1,43 +1,52 @@
 # Mp3tag Actions Pack
 
-## What it is?
-[Mp3Tag](https://www.mp3tag.de/en/) is a great software for managing tags in audio files. With it you can quickly and easily delete certain tags (like artist, title, album, year, cover, so on) or modify them. That helps you to organize your music collection and make browsing and searching through it much easily.
+## About
+[Mp3Tag](https://www.mp3tag.de/en/) is a [Tag Editor](https://en.wikipedia.org/wiki/Tag_editor) software.
 
-[Mp3Tag has a special feature, called an action](https://help.mp3tag.de/options_format.html) which helps you to program mp3tag to do certain acts automatically on one click. For example, via Actions you can uppercase every word, remove double spaces, or move the "feat"-part from title tag to artist tag.
+[An action](https://help.mp3tag.de/options_format.html) is the feature of Mp3Tag allows to edit tags in automatic (pre-programmed) way. For example, user can write an action that will Uppecase Every First Letter In Every Word, or will create a folder with the "*[year] %artist% - %albumname%*" name and put audiofiles here. Basically it saves a lot of time.
 
-However, Actions sometimes might be complicated to handle and program properly, especially if you have never done Regular Expressions(https://en.wikipedia.org/wiki/Regular_expression) and terms like "boolean", "string", "if-else" from in-build functions(https://help.mp3tag.de/main_scripting.html) make your head dizzy. To add more complication, Mp3Tag has two different syntax you need to master with different escaping rules and logic.
+Actions is a powerful feature, but require to know both Regular Expressions(https://en.wikipedia.org/wiki/Regular_expression) and learn in-build functions(https://help.mp3tag.de/main_scripting.html). For most users it is complicated. To make things 'worse' - Mp3Tag has two different syntaxes with different escaping rules and logic.
 
-That repository aims to provide a **handful pack of prebuild, easy-to-use, actions**. With that pack you can quickly and easily to handle simple and complicated tasks.
+That repository provides a **pack of prebuild actions**. You *don't need to learn programming*, just copypaste those actions into your program and user them on click.
 
-In other word **pack provides various actions you can use out-of-the-box with no programming skills required**.
+## Important
+* That pack *is not a magic wand* that will satisfy any need and can handle any situation. Do not expect this pack will solve all problem.
 
-## What it is NOT?
-Mp3tag Actions Pack _is not a magic wand_ that can satisfy any need and can handle any situations.
+* Before using those actions - create a backup folder for your music files and play around with actions before using them on 'real' files.
 
-Do not expect that this pack can solve any tagging problem. Think of this pack/repository as a framework.
+* If you have a special case and that pack cannot help you, then you mush either [learn the syntax](https://community.mp3tag.de/t/actions-and-batch-operations/967/12) or ask for the help on the [forum](https://community.mp3tag.de/).
 
-If you have special case and Mp3tag Actions Pack cannot help you, then you mush either [learn the syntax by yourself](https://community.mp3tag.de/t/actions-and-batch-operations/967/12) or ask for the help on the [forum](https://community.mp3tag.de/).
+## Installation
+1. Required Mp3Tag Version - **Mp3Tag 2.87 and higher**.
+2. **Download** that repository;
+3. **Unpack** archive into the following folder:
 
-## Is it free?
-Absolutely.
+```
+C:\Users\ %username% \AppData\Roaming\Mp3tag\Data\Actions
+```
 
-## How to install?
-1. **Download** that repository (see that big green button at the top-right?)
-2. **Unpack** archive into one of the following folder:
-	* C:\Documents and Settings\ _(username)_ \Application Data\Mp3tag\Data\Actions (_Windows XP_);
-	* C:\Users\ _(username)_ \AppData\Roaming\Mp3tag\Data\Actions (_Windows Vista, 7, 8, 8.1, 10_);
-	* _(mp3tag location)_ \Data\Actions (_[Portable Mp3Tag Mode](https://www.mp3tag.de/en/portable.html)_);
+- If you have **Windows XP**:
 
-If you did everything right, then you should see new actions in the menu.
+```
+C:\Documents and Settings\ %username% \Application Data\Mp3tag\Data\Actions
+```
 
-## Required Mp3Tag Version?
-* Mp3Tag 2.87 and higher.
-Might work on older versions, but why you need to use old versions to begin with?
+- If you installed Mp3Tag in **[portable](https://www.mp3tag.de/en/portable.html)** mode:
 
-## What does numbers 10_, 12_, 14_ and so on, in filenames mean?
-They exist for sorting purposes.
-Without them actions would have been sorted according to the first letter, which is not comfortable to read and follow. Instead, those numbers help to sort actions according to their function and what tag is affected.
+```
+%mp3tag location%\Data\Actions 
+```
 
-## I am tired to select dozen actions over and over, how can I simplify selection?
-1. Manually copy-paste actions into one single action (via any text editor), see 00_MAIN.mta as an example
-2. Create an action group that contains other actions. See the [screenshot](/help/help002.png)
+4. Now you should [see](/help/help001.png) new actions in the menu.
+
+## FAQ
+
+### Q. What do numbers (10_, 12_, 14_) in action names mean?
+**A**. They exist for sorting purposes. Without them actions would have been sorted according to the first letter (which is not comfortable to read and follow). Those numbers allow to sort actions according to their function and what tag they affect.
+
+### Q. I am tired to select dozen actions over and over, how can I simplify selection?
+**A1**. Manually copypaste actions into one single action (via any text editor), see 00_MAIN.mta as an example
+**A2**. Create _an action group_. See the [screenshot](/help/help002.png)
+
+### Q. What is 00_MAIN action?
+**A**. This is my personal action I am using to clean music in my collection. You can use it as a guideline how you can combine various actions in one file.
