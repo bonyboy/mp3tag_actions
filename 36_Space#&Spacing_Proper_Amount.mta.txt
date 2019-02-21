@@ -1,0 +1,10 @@
+﻿Pretty self-explaining. It will add an appropriate space after punctuation and erase unwanted whitespace in a grammatically correct manner. Grammar school is good for something! Here are the highlights in no order:
+
+1. Add a space after a period. It will not add it if there’s already a space or any of these: :”;.’. It will also ignore abbreviations like “U.S.A.” so that it will not be spread into “U. S. A. ” and will also keep triple dots, or ellipsis, intact (…).
+2. Commas and others characters .])?:;, should have no space predecing it, but one following.
+3. Opening parenthesis like “(” and “[” should not have a space afterwards, but before (unless it is the beginning of the line).
+4. Surround characters such as +& with a padded space.
+5. Smart detection of quotation marks. This sentence with”these words”will get separated so “these words” are spaced correctly. Also works for ” too much ” space that turns into a “right amount” of space.
+6. Adds a space if needed after a colon, but ignores times such as 3:15 and also after “/”.
+
+This set was difficult to put together since I was just learning, but I refined it to make it better than it would have been. A while ago I’d never know what the string (“.*?”)([^\s\]\)/\}!\-=,.;:])(?!$) means. Automanaging spacing is great but there may be things it misses. There is limited correction of apostrophe vs. single quote [‘] and the forward slash (/) depends on how it is used (01/01/2000; aesthetic reasons; or quoting lines). Please let me know if you come across any new situations or troubles. There was a problem with websites, but I made a fix to avoid most URLs.

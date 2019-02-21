@@ -1,0 +1,10 @@
+﻿Mp3tag has a built-in case conversion for ALL CAPS, lower case, Mixed Case, and Beginning of a sentence. Mixed Case is often the closest that you can come to proper capitalization of a title. Better still is to follow almost every rule in the book of English. Capitalize everything except 4-letter-or-less prepositions, conjunctions, and articles. Regardless of the previous rule, capitalize first and last words. This action does just that. The caveat is that computers can’t tell the difference between when words like out or over are prepositions or adverbs. I left these out purposely because the majority of my songs should have them in capitals. The ones it detects are a, the, of, for, as, at, an, by, off, on, from, in, to, and, with, or, nor, von. It also detects breaks in the title and will retain capitalization if there is a specific punctuation barrier. Some examples of final results with these exceptions in mind:
+
+    Redondo Beach: The Ending
+    (Break on Through) To the Other Side
+    A Live or Studio / At the Five Spot
+    A Life to Be a Part Of (With You)
+
+This was borrowed and slightly adjusted from this thread. Additionally, it will capitalize words beginning with an apostrophe (not possible with mixed case or the previous action). Words like ’twas and ’tis will have the first letter after an apostrophe capitalized and others (not O’Er, She’S, Don’T) will be ignored from capitalization. Also note that website addresses (in the tags) will be capitalized according to these rules and websites usually depend on case anywhere after the .com, .net, .org, etc. so they may not work correctly.
+
+This has been tested by myself but I can’t guarantee it will catch everything. If things don’t turn out right, you can still undo changes in the program while still in cache. For important info, please backup your files or do a test yourself beforehand.

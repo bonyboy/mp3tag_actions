@@ -1,0 +1,5 @@
+﻿This will transform 1 into 2.
+1. ” This    Song Title    ”
+2. “This Song Title”
+
+It works great on those mysteriously spaced tags, and should consolidate artists that had different spaces in iTunes.

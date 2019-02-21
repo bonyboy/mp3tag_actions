@@ -1,0 +1,71 @@
+Grammartron: Smart Case and Grammar Restorer - v1.0
+
+Description
+===========
+
+Grammartron is a group of 'actions' designed for use with the third-party sorftware programme Mp3tag. It is intended as a comprehensive solution to the problem of standardising, grammatically speaking, all text fields of a digital music collection - including filenames and parent directories.
+
+Features include...
+
+    * Trim trailing, preceding and extra spaces
+    * Enforce correct spacing between words and punctuation
+    * Add missing apostrophes to word contractions
+    * True title case conversion (upper-case words and letters are preserved)
+    * CamelCasing of common Scottish and Irish names
+    * Upper-case Roman numerals (up to LXXIX)
+
+For a complete list of functions, please refer to the descriptions contained within the source code by opening the files in a text editor.
+
+
+Instructions
+============
+
+Place the uncompressed .mta files in Mp3tag's actions folder within the application data directory.
+Example: "C:\Documents and Settings\User Profile\Application Data\Mp3tag\data\actions"
+
+
+Notes
+=====
+
+   1. Filenames: Track numbers should ideally be separated from the title by a boundary (e.g "-"). For instance: "%track% - %title%.ext". This avoids (non-critical) problems arising from the title case function. Edit for clarification: Articles, conjunctions, etc. (e.g. "the", "and"), are usually lower-case, except if they are the first or last word in the group. In the following example: "01 The End.mp3", "The", although being the first word of the title, is considered as the second word after "01", as all alphanumerical characters are treated equally. Thus, we end up with "01 the End.mp3". To avoid this, use a non-space word boundary between the track number and title.
+   2. It is advisable to run the "Directory Names" script on its own, in a separate process. The "Tags" and "Filenames" scripts can be used together if desired.
+   3. This script adds missing apostrophes to word contractions. Some CD burning software (Nero 9 and earlier versions in particular), are reported to have problems handling apostrophised words and may cause programme instability or aborted burning runs.
+
+
+Support
+=======
+
+http://forums.mp3tag.de/index.php?showtopic=13185
+
+
+Version History
+===============
+
+08/05/2011
+1.0
+
+FIXED: Digit grouping format error with thousands separator (space after comma).
+ADDED: "Featuring" abbreviations ("Feat." and "Ft.") now convert to lowercase.
+
+06/04/2011
+0.3.2 beta
+FIXED: Ellipses spacing error.
+FIXED: Case formatting error with articles and prepositions after stopped acronyms.
+ADDED: 'n' abbreviation to lower-case.
+FIXED: Problem with 'Mac' Scottish surname action; replaced with editable correction list. 
+
+31/03/2011
+0.3.1 beta
+FIXED: Roman numerals action causing unwanted deletion of "$" symbols.
+FIXED: Replay Gain formatting error.
+
+29/03/2011
+0.3 beta
+
+First release.
+
+
+Disclaimer
+==========
+
+While I have taken every care to ensure the reliability of this script, I cannot guarantee it to be fool-proof. I urge users to conduct their own tests before applying this script to valuable data. I accept no liability for loss or damage incurred, be it materially or otherwise, as a result of the use of this script. So don't get mad at me if you ruin your priceless Showaddywaddy collection, ok? OK? Good, carry on then.
