@@ -1,0 +1,20 @@
+[#0]
+T=5
+F=TRACK
+1=%_counter%
+
+[#1]
+T=5
+F=TRACK
+1=$num(%track%,2)
+
+[#2]
+T=5
+F=_FILENAME
+1=%track%. %title%
+
+[#3]
+T=5
+F=_DIRECTORY
+1=%album% '['%_bitrate%'kbps]'
+

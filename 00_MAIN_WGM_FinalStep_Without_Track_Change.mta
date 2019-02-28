@@ -1,0 +1,10 @@
+[#0]
+T=5
+F=_FILENAME
+1=%track%. %title%
+
+[#1]
+T=5
+F=_DIRECTORY
+1=%album% '['%_bitrate%'kbps]'
+

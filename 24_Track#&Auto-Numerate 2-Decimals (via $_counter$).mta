@@ -1,0 +1,9 @@
+﻿[#0]
+T=5
+F=TRACK
+1=%_counter%
+
+[#1]
+T=5
+F=TRACK
+1=$num(%track%,2)

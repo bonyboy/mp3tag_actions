@@ -16,7 +16,7 @@ F=ALBUM
 T=4
 F=ALBUM
 1=\\)
-2=
+2= -
 3=0
 
 !Convert . to - in TITLE
